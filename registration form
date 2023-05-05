@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resgistration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   <div class="info" >
+    <h2 align="middle" >Registation Form</h2><br>
+    <div class="logo-container">
+      <img src="data:image/png;base64,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" width ="150" height="150" alt="FDA Logo">
+      <h1 class="logo-title">COMSATS Institute of Information Technology<br>Faculty Development Academy</h1>
+      <img  id="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPz6owoS81I4fJDzEOafHACLgnrrh-F7XCGQ&usqp=CAU"width="150" height="150" alt="">
+    </div>
+    
+   <hr color="black">
+    <div >
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required  Autocompelete><br><br><span>
+      
+        <label for="designation">Designation:</label>
+        <input type="text" id="designation" name="designation"></span><br><br>
+     
+        <label for="education">Education:</label>
+        <input type="text" id="education" name="education"><br><br>
+    
+        <label for="work_experience">No of years work experience:</label>
+        <input type="text" id="work_experience" name="work_experience"><br><br>
+    
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department"><br><br>
+    
+        <label for="mailing_address">Mailing Address:</label>
+        <textarea id="mailing_address" name="mailing_address" required></textarea><br><br>
+    
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone" placeholder="0300-0000000"size=11><br><br>
+    
+        <label for="fax">Fax:</label>
+        <input type="text" id="fax" name="fax"><br><br>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+    
+        <label for="job_description">Current job description:</label>
+        <textarea id="job_description" name="job_description"></textarea><br><br>
+    
+        <label for="expectations">What are your expectations from this Workshop?</label>
+        <textarea id="expectations" name="expectations"></textarea><br><br>
+          <h5><b>Note:</b><br>Kindly submit the filled_in Registration form latest by December 11,2012.</h5>
+          <label for="Date">Date</label>
+          <input type="Date" Pattern ="[0-9]{2}[-][0-9]{2}[-][0-9]{4}" ><br><br
+         
+        <input type="submit" value="Submit">
+      </form>
+     
+      
+    </div>
+    
+</body>
+</html>
